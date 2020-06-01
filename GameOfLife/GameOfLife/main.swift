@@ -17,7 +17,7 @@ struct Cell: CustomStringConvertible, Hashable {
     }
 }
 
-func == (left: Cell, right: Cell)-> Bool {
+func == (left: Cell, right: Cell) -> Bool {
     return (left.xCoor == right.xCoor) && (left.yCoor == right.yCoor)
 }
 
